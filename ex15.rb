@@ -4,8 +4,8 @@ floors=gets.chomp.to_i
 
 dot=""
 floors.times do |index|
-
-index.times do 
+tours=index+1
+tours.times do 
  dot+="*"
 end
 puts dot

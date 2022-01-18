@@ -6,12 +6,12 @@ dot=""
 space=""
 floors.times do |index|
 spaces=floors-index
-
+tours=index+1
 spaces.times do 
     space+=" "
 end
 
-index.times do 
+tours.times do 
     dot+="*"
 end
 puts space+dot
